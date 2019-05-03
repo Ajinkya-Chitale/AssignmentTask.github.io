@@ -1,0 +1,538 @@
+@charset "utf-8";
+/* CSS Document */
+
+header .header-top{
+	background-color: rgb(30,31,33);
+}
+.contactinfo ul{
+	margin: 0px !important;
+}
+.contactinfo ul li{
+	padding: 8px 10px 0px 15px;
+}
+.contactinfo ul li a{
+	font-size: 12px;
+	color: rgb(161,162,163);
+	text-decoration: none;
+}
+.fa{
+	color: white;
+}
+.social ul{
+	margin: 0px !important;
+}
+
+.social ul li a i{
+	padding: 12px 10px 14px 10px;
+}
+.social ul li a{
+	font-size: 14px;
+	color: #696763;
+}
+.social ul li a:hover{
+	color: white;
+}
+.social li:first-child:hover{
+	background-color: #428bca;
+}
+.social li:nth-child(2):hover{
+	background-color: deepskyblue;
+}
+.social li:nth-child(3):hover{
+	background-color: red;
+}
+.social li:nth-child(4):hover{
+	background-color: limegreen;
+}
+.social li:last-child:hover{
+ 	background-color: darkred;
+}
+.header-bottom{
+	margin-top: 0px !important;
+}
+.logo{
+	padding: 15px 0px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+#myNavbar>ul>li>a{
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 25px 12px;
+	color: #444;
+}
+#myNavbar ul li a:hover{
+	background-color: orangered;
+	color: #fff;
+}
+.btnforlogin{
+	border-radius: 0;
+	margin-top: 20px;
+}
+.btnforlogin button{
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.btnforlogin button a{
+	text-decoration: none;
+	color: #fff;
+}
+#foremployee{
+	background-color: deepskyblue;
+}
+#forlogin{
+	background-color: orangered;
+}
+.carousel-indicators .active{
+	background-color: darkorange;
+}
+.carousel-indicators li{
+	background-color: #fff;
+}
+.carousel-indicators{
+	bottom: 40px;
+}
+#serachkeyword{
+	font-size: 11px;
+    margin-top: 10px;
+}
+
+.services .col-sm-4 h2{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+	color: #000;
+}
+.services .col-sm-4 p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.services .col-sm-4 a button{
+	border-radius: inherit;
+	background-color: rgb(0,117,198);
+	color: #ddd;
+}
+
+.records{
+	background-color: rgb(235,238,239);
+}
+.records ul{
+	padding: 50px 0px 20px 0px;
+	text-align: center;
+}
+.records ul li a i{
+	color:rgb(0,117,198);
+	font-size: 25px;
+	padding-right: 20px;
+}
+.records li a{
+	color: #555;
+	font-weight: bold;
+	font-size: 35px;
+	text-decoration: none;
+}
+.records ul li p{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.nav-tabs>li{
+	margin: 25px 0px 15px 0px;
+}
+.nav-tabs{
+	border-bottom: none;
+}
+.nav-tabs>li.active>a,.nav-tabs>li>a{
+	color: #fff;
+	background-color: #ccc;
+	border-radius: 0px;
+}
+
+.nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:hover, .nav-tabs>li>a:focus{
+	color: #fff;
+	background-color: rgb(0,117,198);
+}
+.nav-tabs{
+	margin-bottom: 20px;
+}
+.tab-pane h3{
+	text-align: center;
+	font-weight: bold;
+}
+.tab-pane p{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.tab-pane ul li{
+	background-color: rgb(249,249,249);
+}
+.tab-pane ul li{
+	padding: 5px;
+}
+.tab-pane ul li a{
+	color: #555;
+	text-decoration: none;
+	font-weight: bold;
+}
+.tab-pane ul li a i{
+	color: #aaa;
+	font-weight: bold;
+	float: right;
+	margin-top: -10px;
+	margin-right: 10px;
+}
+.tab-pane ul li span{
+	color: #aaa;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+footer{
+	background-color: rgb(37,38,42);
+	color: #BBBBBB;
+}
+footer #forfooter{
+	margin: 3% 0 4% 0;
+}
+footer h6{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+footer #newsdesc{
+	font-size: 11px;
+	line-height: 18px;
+	margin-bottom: 25px;
+}
+footer ul li a .fa{
+	color: #aaa;
+	padding-right: 5px;
+	padding-left: 10px;
+}
+footer ul li a{
+	color: #aaa;
+	font-size: 11px;
+	text-decoration: none;
+}
+footer ul li a:hover{
+	color: #ccc;
+	text-decoration: none;
+}
+footer .footer-navs{
+	padding-left: 10%;
+}
+footer .footer-navs input{
+	border-radius: inherit !important;
+}
+.footer-navs .btn{
+	border-radius: inherit;
+	background-color: rgb(0,117,198);
+	color: #ddd;
+	text-transform: uppercase;
+}
+.footer-copy{
+	background-color: rgb(30,31,33);
+	padding: 22px 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.jobfair .carousel-caption a button{
+	border-radius: inherit;
+    background-color: rgb(0,117,198);
+    color: #ddd;
+    text-transform: uppercase;
+}
+.jobfair .carousel-caption h4{
+    line-height: 24px;
+    margin: 20px 0px;
+}
+.testimonial-section h3{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.testimonial_para{
+	margin: 0px 0 10px 25px;
+}
+.back-to-top i{
+	background-color: orangered;
+	padding: 2px 5px;
+}
+.back-to-top p{
+	color: #333;
+	font-size: 12px;
+	text-transform: uppercase;
+	position: fixed;
+	right: 5%;
+	bottom: 10%;
+	z-index: 99;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+	.social, .contactinfo{
+		text-align: center;
+	}
+	.social>ul{
+		float: none !important;
+	}
+	.carousel-caption{
+		display: none;
+	}
+	.job #forsearch{
+		padding: 8px 40% 8px 10px;
+		margin-top: 10px; 
+	}
+	#findjobbtn{
+		padding: 9px 50px;
+		color: rgb(237,239,239);
+		background-color: rgb(71,89,89);
+		border-radius: inherit;
+		margin-top: 10px;
+	}
+	.services img{
+		margin-top: 15px;
+	}
+	#ourjob{
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+		padding: 20px 0px 0px 0px;
+	}
+	#ourjobdesc{
+		padding: 0px 10px 0px 0px;
+	}
+	.records ul li{
+		width: 100%;
+	}
+	#recordsdesc1{
+	padding-left: 47px;
+	}
+	#recordsdesc2{
+		padding-left: 65px;
+	}
+	#recordsdesc3{
+		padding-left: 79px;
+	}
+	#recordsdesc4{
+		padding-left: 103px;
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width:767px){
+	.social, .contactinfo{
+		text-align: center;
+	}
+	.social>ul{
+		float: none !important;
+	}
+	.carousel-caption{
+		display: none;
+	}
+	.job #forsearch{
+		padding: 8px 50% 8px 10px;
+		margin-top: 10px; 
+	}
+	#findjobbtn{
+		padding: 9px 50px;
+		color: rgb(237,239,239);
+		background-color: rgb(71,89,89);
+		border-radius: inherit;
+		margin-top: 10px;
+	}
+	.services img{
+		margin-top: 15px;
+	}
+	#ourjob{
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+		padding: 20px 0px 0px 0px;
+	}
+	#ourjobdesc{
+		padding: 0px 10px 0px 0px;
+	}
+	.records ul li{
+		width: 47%;
+	}
+	#recordsdesc1{
+	padding-left: 47px;
+	}
+	#recordsdesc2{
+		padding-left: 65px;
+	}
+	#recordsdesc3{
+		padding-left: 79px;
+	}
+	#recordsdesc4{
+		padding-left: 93px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.searchbox{
+		position: relative;
+	}
+	.job{
+		position: absolute;
+		background-color: rgb(239,240,241);
+		padding: 30px 0px 20px 0px;
+		position: absolute;
+	}
+	.job #forsearch{
+		padding: 8px 2px 8px 2px;
+	}
+	#findjobbtn{
+		padding: 9px 50px;
+		color: rgb(237,239,239);
+		background-color: rgb(71,89,89);
+		border-radius: inherit;
+	}
+	.services{
+		margin-top: 20%;
+	}
+	#ourjob{
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+		padding: 20px 0px 0px 0px;
+	}
+	#ourjobdesc{
+		padding: 0px 10px 0px 0px;
+	}
+	.records ul li{
+		width: 35%;
+	}
+	#recordsdesc1{
+	padding-left: 47px;
+	}
+	#recordsdesc2{
+		padding-left: 65px;
+	}
+	#recordsdesc3{
+		padding-left: 79px;
+	}
+	#recordsdesc4{
+		padding-left: 103px;
+	}
+	.jobfair .carousel-caption{
+		top: 20%;
+		left: 16%;
+		width: 40%;
+		text-align: left;
+	}
+	
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px){
+	.searchbox{
+		position: relative;
+	}
+	.job{
+		position: absolute;
+		background-color: rgb(239,240,241);
+		padding: 30px 0px 20px 21%;
+		position: absolute;
+		bottom: -90px;
+		left: 1%;
+	}
+	.job #forsearch{
+		padding: 8px 20px 8px 10px;
+	}
+	#findjobbtn{
+		padding: 9px 50px;
+		color: rgb(237,239,239);
+		background-color: rgb(71,89,89);
+		border-radius: inherit;
+	}
+	.services{
+		margin-top: 10%;
+	}
+	#ourjob{
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+		padding: 20px 0px 0px 25px;
+	}
+	#ourjobdesc{
+		padding: 0px 10px 0px 25px;
+	}
+	.records ul li{
+		width: 20%;
+	}
+	#recordsdesc1{
+	padding-left: 47px;
+	}
+	#recordsdesc2{
+		padding-left: 65px;
+	}
+	#recordsdesc3{
+		padding-left: 79px;
+	}
+	#recordsdesc4{
+		padding-left: 73px;
+	}
+	.jobfair .carousel-caption{
+		top: 20%;
+		left: 16%;
+		width: 30%;
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width:1025px){
+	.searchbox{
+		position: relative;
+	}
+	.job{
+		position: absolute;
+		background-color: rgb(239,240,241);
+		padding: 30px 0px 20px 21%;
+		position: absolute;
+		bottom: -90px;
+		left: 1%;
+	}
+	.job #forsearch{
+		padding: 8px 20px 8px 10px;
+	}
+	#findjobbtn{
+		padding: 9px 50px;
+		color: rgb(237,239,239);
+		background-color: rgb(71,89,89);
+		border-radius: inherit;
+	}
+	.services{
+		margin-top: 9%;
+	}
+	#ourjob{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	padding: 20px 0px 0px 25px;
+	}
+	#ourjobdesc{
+		padding: 0px 10px 0px 25px;
+	}
+	.records ul li{
+		width: 20%;
+	}
+	#recordsdesc1{
+	padding-left: 47px;
+	}
+	#recordsdesc2{
+		padding-left: 65px;
+	}
+	#recordsdesc3{
+		padding-left: 79px;
+	}
+	#recordsdesc4{
+		padding-left: 73px;
+	}
+	.jobfair .carousel-caption{
+		top: 20%;
+		left: 16%;
+		width: 22%;
+		text-align: left;
+	}
+}
